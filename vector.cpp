@@ -38,7 +38,6 @@ MyVec::MyVec(int size, int value) {
         elements[i] = value;
     }
 }
-
 MyVec::~MyVec() {
     delete [] elements;
 }
